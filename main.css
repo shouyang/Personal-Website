@@ -1,0 +1,70 @@
+a:link {text-decoration: none;color:  	#2e6e9e;}
+a:visited {text-decoration: none;color:  	#2e6e9e;}
+a:hover {text-decoration: none;color: grey;}
+a:active {text-decoration: none;color:  	#2e6e9e;}
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
+
+html {
+	font-size: large;
+}
+body {
+background-color: #fff1e0;
+font-family: "Garamond", "Times New Roman", serif;
+margin: 0 auto;
+max-width: 1280px;
+min-width: 700px;
+}
+hr {
+	color:#9e2f50;
+	background-color: #9e2f50;
+	height: 2px;
+}
+.header {
+font-size: 150%;
+color:grey;
+text-align: center;
+font-family: "Garamond", "Times New Roman", serif;
+}
+.navbar {
+text-align: center;
+font-size: 200%;
+font-family: "Garamond", "Times New Roman", serif;
+}
+.navbar_sub {
+text-align: center;
+font-size: 150%;
+font-family: "Garamond", "Times New Roman", serif;
+}
+.container_centered {
+text-align: center;
+font-family: "Garamond", "Times New Roman", serif;
+margin-right: 100px;
+margin-left: 100px;
+margin-bottom: 5px;
+padding: 0px;
+font-family: "Garamond", "Times New Roman", serif;
+line-height: 105%;
+}
+.container{
+margin-right: 100px;
+margin-left: 100px;
+margin-bottom: 5px;
+padding: 0px;
+font-family: "Garamond", "Times New Roman", serif;
+line-height: 105%;
+}
+.left_align{
+float: left;
+font-family: "Garamond", "Times New Roman", serif;
+}
+.right_align{
+float: right;
+font-family: "Garamond", "Times New Roman", serif;
+}
+.center_align{
+float: right;
+font-family: "Garamond", "Times New Roman", serif;
+}
