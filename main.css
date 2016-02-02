@@ -8,13 +8,13 @@ ol.c {list-style-type: upper-roman;}
 ol.d {list-style-type: lower-alpha;}
 
 html {
-	font-size: large;
+	font-size: normal;
 }
 body {
 background-color: #fff1e0;
 font-family: "Garamond", "Times New Roman", serif;
 margin: 0 auto;
-max-width: 1280px;
+max-width: 1100px;
 }
 hr {
 	color:#9e2f50;
@@ -22,34 +22,34 @@ hr {
 	height: 2px;
 }
 .header {
-font-size: 150%;
+font-size: 105%;
 color:grey;
 text-align: center;
 font-family: "Garamond", "Times New Roman", serif;
 }
 .navbar {
 text-align: center;
-font-size: 200%;
+font-size: 140%;
 font-family: "Garamond", "Times New Roman", serif;
 }
 .navbar_sub {
 text-align: center;
-font-size: 150%;
+font-size: 125%;
 font-family: "Garamond", "Times New Roman", serif;
 }
 .container_centered {
 text-align: center;
 font-family: "Garamond", "Times New Roman", serif;
-margin-right: 100px;
-margin-left: 100px;
+margin-right: 32px;
+margin-left: 32px;
 margin-bottom: 5px;
 padding: 0px;
 font-family: "Garamond", "Times New Roman", serif;
 line-height: 105%;
 }
 .container{
-margin-right: 100px;
-margin-left: 100px;
+margin-right: 32px;
+margin-left: 32px;
 margin-bottom: 5px;
 padding: 0px;
 font-family: "Garamond", "Times New Roman", serif;
