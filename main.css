@@ -19,7 +19,7 @@ hr {
 	color:#9e2f50;
 	background-color: #9e2f50;
 	border-style: solid;
-	height: 2px;
+	height: 1px;x
 }
 .header {
 font-size: 105%;
@@ -49,7 +49,7 @@ line-height: 105%;
 }
 .container{
 margin-right: 20px;
-margin-left: 20		px;
+margin-left: 20px;
 margin-bottom: 5px;
 padding: 0px;
 font-family: "Garamond", "Times New Roman", serif;
@@ -66,4 +66,9 @@ font-family: "Garamond", "Times New Roman", serif;
 .center_align{
 float: right;
 font-family: "Garamond", "Times New Roman", serif;
+}
+/* Use regex to format all project showcase ids*/
+div[id^='showcase']{
+	margin-right: 60px;
+margin-left: 60px;
 }
