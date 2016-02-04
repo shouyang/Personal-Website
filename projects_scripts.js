@@ -1,6 +1,7 @@
 // This file requires jQuery
-document.getElementById("general_button").onclick = test();
 
-function test() {
-	document.getElementById("showcase_panel").sethtml = "Testp";
+function test(){
+	document.getElementById("showcase_panel").innerHTML = "s";
+	console.log("test function");
+	return true;
 }

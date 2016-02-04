@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Used to run jquery scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="projects_scripts.js"></script>
 	</head>
 	<body>
 		<!--Navigation Bar Start-->
@@ -21,7 +22,7 @@
 			<p> Below will be my pesudo blog. It will contain various posts which take a look at a particular project I am working one during that time.</p>
 			<!--Category Dashboard-->
 			<div id = "Category Switch" style = "font-size:120%;">
-				<button type = "button" style = "font-size: 140%" id = "general_button" class = "project_button">General</button>
+				<button type = "button" style = "font-size: 140%" id="general_button" class = "project_button" onclick="return test();">General</button>
 				<br>
 				<button type = "button" class = "project_button">CompSci</button> | 
 				<button type = "button" class = "project_button">Finance</button> | 
@@ -48,6 +49,6 @@
 			<div id ="footer">Stuff is still loading</div>	
 			<script >$("#footer").load("footer.html");</script>
 		</div>
-	<script src="projects_scripts.js"></script>
 	</body>
+	
 </html>
