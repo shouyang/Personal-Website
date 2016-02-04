@@ -12,32 +12,42 @@
 	</head>
 	<body>
 		<!--Navigation Bar Start-->
-		<div class="header"><h1>Projects	</div>
+		<div class="header"><h1>Projects</h1></div>
 		<div id ="navheader"><hr>Stuff is still loading</div>
 			<script >$("#navheader").load("header.html");</script>
 		<!--Navigation Bar End-->
 		<div class ="container_centered"><hr>
 			<!--Main Paragraph-->
-			<p> Below will be my pesudo blog. It will contain various posts which take a look at a particular project I am working one during that time. 	 </p>
-			<!--First Import-->
-			<div id ="showcase_1">Stuff is still loading</div>
-			<script>$("#showcase_1").load("projectsub/showcase_1.html");</script>
-			<!--Second Import-->
-			<div id ="showcase_2">2</div>
-			<script>$("#showcase_2").load("projectsub/showcase_2.html");</script>
-			<!--Third Import-->
-			<div id ="showcase_3">3</div>
-			<script>$("#showcase_3").load("projectsub/showcase_3.html");</script>
-			<!--Fourth Import-->
-			<div id ="showcase_4">4</div>
-			<script>$("#showcase_4").load("projectsub/showcase_4.html");</script>
-			<!--Fifth Import-->
-			<div id ="showcase_5">5</div>
-			<script>$("#showcase_5").load("projectsub/showcase_5.html");</script>
+			<p> Below will be my pesudo blog. It will contain various posts which take a look at a particular project I am working one during that time.</p>
+			<!--Category Dashboard-->
+			<div id = "Category Switch" style = "font-size:120%;">
+				<button type = "button" style = "font-size: 140%" id = "general_button" class = "project_button">General</button>
+				<br>
+				<button type = "button" class = "project_button">CompSci</button> | 
+				<button type = "button" class = "project_button">Finance</button> | 
+				<button type = "button" class = "project_button">MilSci</button>
+			</div>
+				<!--First Import-->
+			<div id = "showcase_panel">
+				<div id ="showcase_1">Stuff is still loading</div>
+				<script>$("#showcase_1").load("projectsub/showcase_1.html");</script>
+				<!--Second Import-->
+				<div id ="showcase_2">2</div>
+				<script>$("#showcase_2").load("projectsub/showcase_2.html");</script>
+				<!--Third Import-->
+				<div id ="showcase_3">3</div>
+				<script>$("#showcase_3").load("projectsub/showcase_3.html");</script>
+				<!--Fourth Import-->
+				<div id ="showcase_4">4</div>
+				<script>$("#showcase_4").load("projectsub/showcase_4.html");</script>
+				<!--Fifth Import-->
+				<div id ="showcase_5">5</div>
+				<script>$("#showcase_5").load("projectsub/showcase_5.html");</script>
+			</div>
 			<!--Footer-->
 			<div id ="footer">Stuff is still loading</div>	
 			<script >$("#footer").load("footer.html");</script>
 		</div>
-
+	<script src="projects_scripts.js"></script>
 	</body>
 </html>

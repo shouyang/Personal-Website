@@ -75,3 +75,17 @@ margin-left: 3%;
 .img-circle {
 	border-radius: 50%;
 }
+/* Used to format the buttons */
+.project_button {
+	background: none;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     color:#2e6e9e;
+     /*border is optional*/
+     cursor: pointer;
+     text-decoration: none;
+}
+.project_button:hover {
+     color:grey;
+}
