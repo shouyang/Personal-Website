@@ -21,11 +21,11 @@ hr {
 	border-style: solid;
 	height: 1px;x
 }
-.header {
-font-size: 105%;
+h1 {
 color:grey;
 text-align: center;
 font-family: "Garamond", "Times New Roman", serif;
+margin: 0.2%;
 }
 .navbar {
 text-align: center;
