@@ -19,7 +19,9 @@ hr {
 	color:#9e2f50;
 	background-color: #9e2f50;
 	border-style: solid;
-	height: 1px;x
+	height: 2px;
+	margin: 0.5%;
+	border-top: 0;
 }
 h1 {
 color:grey;
@@ -27,12 +29,13 @@ text-align: center;
 font-family: "Garamond", "Times New Roman", serif;
 margin: 0.2%;
 }
-.navbar {
+.navbar_main {
 text-align: center;
 font-size: 150%;
 font-family: "Garamond", "Times New Roman", serif;
+margin: 0px;
 }
-.navbar_sub {
+.navbar_sub_main {
 text-align: center;
 font-size: 125%;
 font-family: "Garamond", "Times New Roman", serif;
@@ -47,7 +50,7 @@ padding: 0px;
 font-family: "Garamond", "Times New Roman", serif;
 line-height: 105%;
 }
-.container{
+.container_main{
 margin-right: 20px;
 margin-left: 20px;
 margin-bottom: 5px;
