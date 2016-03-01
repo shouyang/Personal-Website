@@ -1,13 +1,13 @@
-
 <hr style = "background-color: #09a25c; color:#09a25c;">
-
-<h3> Interactive Content | 03-Feb-2016</h3>
-<p>
-I've decided to segment projects into three sections and a general section for fun. I thought it would add to the interactablity of the site. Come to think of it, I don't know if this could be considered dynamic content. As it currently stands the links above these posts aren't actually links but buttons formatted so that they look the same. I could do the same functionality with links however, it would be more work. 
+<h3> Some Simple Graphs in R | 29-Feb-2016</h3>
+<p> The following are two simple graphs I made using some baseball data in OOTP 16 exported to R. I've been meaning to do more with R and recently I found out that exporting out of OOTP 16 is rather easy using the fact that it supports exporting player roosters and rooster data as an html file. From there, I've been able to clean the data by oddly enough grabbing the table in MS word and converting it into an excel table for saving as a CSV into R. At the end of the day it is rather round about. Originally I had intended to export the game's internal database which could be in MySQL or csv format. I've got to say the format presented in that export is quite annoying given the amout of rather useless or otherwise redundant fields. I'm under the impression the database export is meant for online fantasy leagues composed of multiple in game leagues making certain fields a must. Hopefully I can find a similar export route for league data.
 </p>
-
-<p>
-As I've said in a general post, I use AJAX and jQuery to handle these posts. Originally the projects page simply contained five jQuery fuctions which go into the file tree and find my project posts. To handle multiple categories, I don't know why, I orginally wanted to inject an html script into the appropreate web section. Now, every thing simply takes over the same area using the tools I've already learned when setting up the first projects page.
+<p> The first plot shows players by player number and At Bats. The Second shows players also by player number with Hits instead of At Bats. I've put mean lines on both of the graphs. Oddly enough the one for Hits spans the entirety of the graph for some reason. These barplots are made using the regular plot function in R, I wanted to try out ggplot2 especially with stacked lines however I wasn't able to figure out how exactly ggplot2 worked with it's plot construction. I've been finding R quite different to learn than say Python, Html, Css, etc... the level of documentation isn't really the same. I should probably pick up an acutal textbook on R sometime.
 </p>
-
+<img src="Images/ABplot.jpeg" style = "width:25%;height:25%;">
+<img src="Images/H.jpeg" style = "width:25%;height:25%;">
+<p> It's a shame I couldn't get these to plot as a stacked chart. On second thoughts it would probably be better to preset At Bats over Hits as a percentage than anything. I think the game's interal modules already do this actually. Nevertheless I wanted to stack these as a learning experience. In the current state, I think it's rather hard to make any inferences. It is natural that the players who bat often have higher counts of hits. It is interesting however to see which players are more consistent at bat and prehaps add labels such as bases taken, 2B,3B,HR's. 
+</p>
+<p> Come to think of it next time I'll try to make the following. Ideally we'll have a stacked barplot with AB's stacked on top of Hits's, interal to the bars will be the ratio of Hits over At Bats, over the topmost bar will be relevant power metrics such as home runs or triple hits and runs batted in. Even with the OOTP16's interal metrics such as Slugging Averages I think is will be a nice visual tool to gauge the profiles of our batting line up. It would be a nice visual tool to figure out who can get on base and who are the power hitters. Sadly we probably won't be playing as the Seibu Lions NiGun team. Not only was this a test game generated solely for this excirse, double AA Nippon league teams aren't terribly interesting.
+</p>
 <hr style = "background-color: #09a25c; color:#09a25c;">
