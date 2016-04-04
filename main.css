@@ -58,18 +58,7 @@ padding: 0px;
 font-family: "Garamond", "Times New Roman", serif;
 line-height: 105%;
 }
-.left_align{
-float: left;
-font-family: "Garamond", "Times New Roman", serif;
-}
-.right_align{
-float: right;
-font-family: "Garamond", "Times New Roman", serif;
-}
-.center_align{
-float: right;
-font-family: "Garamond", "Times New Roman", serif;
-}
+
 /* Use regex to format all project showcase ids*/
 div[id^='showcase']{
 	margin-right: 3%;
