@@ -22,22 +22,38 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container_centered">
-					<p><img class="img-circle" src= "Images/profile.jpg" style="margin: auto; width:80px;"><br>This is the personal website of Shouyang &quotDaniel&quot Zhou. <br> For now the site hosts my resume and it&apos;s supplimental documents. As it currently stands this website will link to any other accounts related to work that I find useful to display to you, the viewer.<br><br>As it currently stands this website will be a web development of mine. Suprisingly much of the framework for this site is done over the course of a single day, from zero html experience to here and now. This website is largely designed using html and css. <br><br> Things done so far: <br><br> Resume formatted as webpage <br> Relevant documents section <br> Projects section <br> <br> To Do: <br> Improve html readability with comments <br> Add some project pages. <br> Maybe even have endless (sort of) scrolling!
+					<p><img class="img-circle" src= "Images/profile.jpg" style="margin: auto; width:80px;">
+                        <br>This is the personal website of Shouyang &quotDaniel&quot Zhou. 
+                        <br> For now the site hosts my resume and it&apos;s supplimental documents. As it currently stands this website will link to any other accounts related to work that I find useful to display to you, the viewer.
+                        <br><br>As it currently stands this website will be a web development of mine. Suprisingly much of the framework for this site is done over the course of a single day, from zero html experience to here and now. This website is largely designed using html and css.
+                        <br><br> Things done so far: 
+                        <br><br> Resume formatted as webpage
+                        <br> Relevant documents section 
+                        <br> Projects section 
+                        <br> <br> To Do: 
+                        <br> Improve html readability with comments 
+                        <br> Add some project pages. 
+                        <br> Maybe even have endless (sort of) scrolling!
 					<!-- Most Recent Project Post -->
 					<h3>Most Recent Project Posts</h3>
 				</div>
 			</div>
 		</div>
+        <!-- Bootstrap Row Object -->
+        <!-- 1x4 Holding Array for up to 5 articles / blog posts drawn from the projectsub folder. -->
 		<div class="row">
+            <!-- Bootstrap Column Object -->
 			<div class="col-md-3">
 				<div id ="showcase_general_1">Stuff is still loading</div>
+                <!-- jQuery Load Command Used To Insert Blog Posts-->
 				<script>$("#showcase_general_1").load("projectsub/general/showcase_1.html");</script>
 				<div id ="showcase_general_2">Stuff is still loading</div>
 				<script>$("#showcase_general_2").load("projectsub/general/showcase_2.html");</script>
 				<div id ="showcase_general_3">Stuff is still loading</div>
 				<script>$("#showcase_general_3").load("projectsub/general/showcase_3.html");</script>
 			</div>
-			<div class="col-md-3">
+			<!-- Bootstrap Column Object -->
+            <div class="col-md-3">
 				<div id ="showcase_CS_1"></div>
 				<script>$("#showcase_CS_1").load("projectsub/CompSci/cs_showcase_1.html");</script>
 				<div id ="showcase_CS_2"></div>
@@ -45,6 +61,7 @@
 				<div id ="showcase_CS_3"></div>
 				<script>$("#showcase_CS_3").load("projectsub/CompSci/cs_showcase_3.html");</script>
 			</div>
+            <!-- Bootstrap Column Object -->
 			<div class="col-md-3">
 				<div id ="showcase_F_1"></div>
 				<script>$("#showcase_F_1").load("projectsub/Finance/f_showcase_1.html");</script>
@@ -53,6 +70,7 @@
 				<div id ="showcase_F_3"></div>
 				<script>$("#showcase_F_3").load("projectsub/Finance/f_showcase_3.html");</script>
 			</div>
+            <!-- Bootstrap Column Object -->
 			<div class="col-md-3">
 				<div id ="showcase_M_1"></div>
 				<script>$("#showcase_M_1").load("projectsub/MilSci/m_showcase_1.html");</script>
